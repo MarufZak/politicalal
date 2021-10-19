@@ -1,1 +1,1 @@
-"use strict";window.addEventListener("DOMContentLoaded",function(){var burger=document.querySelector(".header__burger");burger.addEventListener("click",function(){burger.classList.toggle("open"),document.querySelector(".header__list").classList.toggle("active")})});
+"use strict";window.addEventListener("DOMContentLoaded",function(){var burger=document.querySelector(".header__burger");burger.addEventListener("click",function(){burger.classList.toggle("open"),document.querySelector(".header__list").classList.toggle("active"),document.body.classList.toggle("lock")})});
